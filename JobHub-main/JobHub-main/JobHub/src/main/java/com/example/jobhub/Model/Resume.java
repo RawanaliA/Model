@@ -21,8 +21,8 @@ public class Resume {
     private String experince;
     private String skill;
 
-    @OneToOne
-    @MapsId
-    @JsonIgnore
-    private Seekers seekers;
+//    @OneToOne
+//    @MapsId
+//    @JsonIgnore
+//    private Seekers seekers;
 }

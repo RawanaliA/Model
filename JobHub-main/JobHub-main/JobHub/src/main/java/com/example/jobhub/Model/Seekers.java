@@ -19,9 +19,9 @@ public class Seekers {
     private  String seekerName;
     private  String email;
 
-    @OneToOne(cascade = CascadeType.ALL,mappedBy = "seekers")
-    @PrimaryKeyJoinColumn
-    private Resume resume ;
+//    @OneToOne(cascade = CascadeType.ALL,mappedBy = "seekers")
+//    @PrimaryKeyJoinColumn
+//    private Resume resume ;
 
 
 

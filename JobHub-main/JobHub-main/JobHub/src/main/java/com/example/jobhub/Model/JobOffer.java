@@ -18,14 +18,14 @@ public class JobOffer {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer jobOfferID;
     @NotEmpty
-    @Column(columnDefinition = "varchare(20) not Null")
+//    @Column(columnDefinition = "varchar (20) not Null")
     private String positionName;
 
     private Integer offerID;
     @NotEmpty
-    @Column(columnDefinition = "varchare(20) not Null")
+//    @Column(columnDefinition = "varchar (20) not Null")
     private String companyName;
     @NotEmpty
-    @Column(columnDefinition = "varchare(20) not Null")
+//    @Column(columnDefinition = "varchar (20) not Null")
     private String category;
 }
